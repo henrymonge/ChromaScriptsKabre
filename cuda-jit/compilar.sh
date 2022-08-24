@@ -5,13 +5,10 @@
 #SBATCH --ntasks=1
 #SBATCH --time=08:00:00
 
-eval "$(conda shell.bash hook)"
-conda init bash
-conda activate myenv
+#cmake -version
 
-cmake -version
-
-
+rm -r build
+mkdir build
 
 srun ./build_qmp.sh  > out_qmp.sh 2>&1
 srun ./build_llvm-13.sh > out_llvm-13.sh 2>&1
