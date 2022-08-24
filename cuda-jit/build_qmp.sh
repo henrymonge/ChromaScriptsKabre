@@ -1,3 +1,4 @@
+#!/bin/bash
 eval "$(conda shell.bash hook)"
 conda init bash
 conda activate bash
