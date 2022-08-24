@@ -5,7 +5,15 @@
 #SBATCH --ntasks=1
 #SBATCH --time=08:00:00
 
+source env
+
 #cmake -version
+cd ../src
+srun ./populate.sh
+
+cd $TOPDIR_HIP
+
+echo `pwd`
 
 rm -r build
 mkdir build
