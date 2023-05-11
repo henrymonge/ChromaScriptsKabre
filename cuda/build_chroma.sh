@@ -8,7 +8,7 @@ fi
 
 mkdir  ./build_chroma
 cd ./build_chroma
-cmake ${SRCROOT}/chroma -G "Ninja" -DCMAKE_CXX_COMPILER=mpicxx \
+cmake ${SRCROOT}/chroma -DCMAKE_CXX_COMPILER=mpicxx \
 		-DCMAKE_C_COMPILER=mpicc -DCMAKE_C_STANDARD=99 -DCMAKE_C_EXTENSIONS=OFF  \
 	 	-DBUILD_SHARED_LIBS=ON \
 		-DCMAKE_BUILD_TYPE=RelWithDebInfo \

@@ -11,7 +11,6 @@ cd ./build_quda
 export QUDA_GPU_ARCH=sm_70
 
 cmake ${SRCROOT}/quda \
-  -G "Ninja" \
   -DQUDA_TARGET_TYPE="CUDA" \
   -DQUDA_DIRAC_CLOVER=ON \
   -DQUDA_DIRAC_DOMAIN_WALL=ON \

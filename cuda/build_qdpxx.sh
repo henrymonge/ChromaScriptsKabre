@@ -8,7 +8,7 @@ fi
 
 mkdir  ./build_qdpxx
 cd ./build_qdpxx
-cmake ${SRCROOT}/qdpxx -G "Ninja" \
+cmake ${SRCROOT}/qdpxx \
 			 -DQDP_PARALLEL_ARCH=parscalar \
        -DQDP_PRECISION=double \
        -DCMAKE_BUILD_TYPE=RelWithDebInfo \
