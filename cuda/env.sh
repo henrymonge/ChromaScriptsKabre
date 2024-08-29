@@ -1,7 +1,8 @@
-module load cuda/11.6.2-gcc-9.3.0
-module load gcc/11.1.0
-module load mpich/3.2.1-gcc
-module load cmake/3.26.0
+module load cuda/11.8
+module load gcc/11.2.0
+#module load mpich/3.2.1-gcc
+module load openmpi/4.1.5-gcc_11.2.0
+module load cmake/3.25.0
 
 module list
 

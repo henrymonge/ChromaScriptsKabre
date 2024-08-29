@@ -8,7 +8,7 @@ fi
 mkdir  ./build_quda
 cd ./build_quda
 
-export QUDA_GPU_ARCH=sm_70
+export QUDA_GPU_ARCH=sm_80
 
 cmake ${SRCROOT}/quda \
   -DQUDA_TARGET_TYPE="CUDA" \

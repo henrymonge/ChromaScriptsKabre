@@ -7,7 +7,7 @@
 
 source env.sh
 
-echo "Compilando cambios...\n\n"
+echo "Compiling changes...\n\n"
 
 
 pushd ${BUILDROOT}
