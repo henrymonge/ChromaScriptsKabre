@@ -1,9 +1,4 @@
 #!/bin/bash
-#SBATCH --job-name=get_chroma_stack
-#SBATCH --output=get_chroma_stack.txt
-#SBATCH --partition=andalan
-#SBATCH --ntasks=1
-#SBATCH --time=56:00:00
 
 git clone https://github.com/usqcd-software/qmp.git
 
